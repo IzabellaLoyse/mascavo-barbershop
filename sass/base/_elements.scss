@@ -24,6 +24,11 @@ html {
 }
 
 
+body {
+  font: map-get($font-weight, 'dm-regular') 1rem 'DM Sans', sans-serif;
+}
+
+
 img {
   max-width: 100%;
   width: auto;
