@@ -1,7 +1,43 @@
-
+/* =========================================================================
+  #LAYOUT:HOME
+============================================================================*/
 
 .l-home {
   .l-container {
     margin: 0;
   }
+}
+
+
+.l-home__image img,
+.l-home__image::before {
+  border-radius: 0.25rem;
+}
+
+
+.l-home__image {
+  position: relative;
+
+  img {
+    position: relative;
+    right: 2.93rem;
+  }
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: -16.8%;
+    left: 16.8%;
+    z-index: 0;
+    background-color: map-get($colors, 'base-color-second');
+    height: 100%;
+    width: 100%;
+  }
+}
+
+
+.l-home__text {
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  text-align: center;
 }
