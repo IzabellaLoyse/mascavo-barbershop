@@ -35,7 +35,11 @@
 ============================================================================*/
 
 @import 'layout/header';
+@import 'layout/container';
 @import 'layout/menu';
+@import 'layout/box';
+@import 'layout/home';
+@import 'layout/grid';
 
 
 
@@ -46,3 +50,4 @@
 ============================================================================*/ 
 
 @import 'components/menu';
+@import 'components/home';

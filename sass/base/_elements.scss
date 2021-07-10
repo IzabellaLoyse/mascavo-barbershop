@@ -9,7 +9,6 @@ html {
   box-sizing: border-box;
 }
 
-
 *,
 *::before,
 *::after {
@@ -17,17 +16,23 @@ html {
   outline-offset: 0.25rem;
 }
 
-
 * {
   margin: 0;
   padding: 0;
 }
 
-
 body {
-  font: map-get($font-weight, 'dm-regular') 1rem 'DM Sans', sans-serif;
+  font: map-get($font-weight, 'dm-regular') 100% 'DM Sans', sans-serif;
+  background-color: map-get($colors, 'body-color');
+  color: map-get($colors, 'text-color');
+  -webkit-font-smoothing: antialiased;
 }
 
+h1 {
+  font: map-get($font-weight, 'poppins-bold') 1.875rem 'Poppins', sans-serif;
+  color: map-get($colors, 'title-color');
+  -webkit-font-smoothing: auto;
+}
 
 img {
   max-width: 100%;

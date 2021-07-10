@@ -1,0 +1,14 @@
+/* =========================================================================
+  #COMPONENTS:MENU
+============================================================================*/
+
+.c-menu__logo {
+  font: map-get($font-weight, 'poppins-bold') 1.31rem 'Poppins', sans-serif;
+  color: map-get($colors, "title-color");
+  text-decoration: none;
+
+  span {
+    color: map-get($colors, "base-color");
+  }
+
+}

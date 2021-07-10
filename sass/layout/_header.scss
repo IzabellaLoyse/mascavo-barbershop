@@ -3,5 +3,5 @@
 ============================================================================*/
 
 .l-header {
-  height: 4.5rem;
+  border-bottom: 1px solid map-get($colors , "border-color");
 }

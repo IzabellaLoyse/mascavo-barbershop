@@ -1,12 +1,9 @@
 /* =========================================================================
-  #LAYOUT:MENU
+  #LAYOUT:CONTAINER
 ============================================================================*/
 
-
-.l-menu {
-  height: 4.5rem;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+.l-container {
+  width: 100%;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
 }
-

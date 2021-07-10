@@ -6,25 +6,30 @@
   #COLORS 
 ============================================================================*/
 
+$hue: 159;
 
-
-
-
+$colors: (
+  'base-color': hsl($hue, 36%, 57%),
+  'base-color-second': hsl($hue, 65%, 88%),
+  'base-color-alt': hsl($hue, 57%, 53%),
+  'title-color': hsl($hue, 41%, 10%),
+  "border-color": hsl(0, 0%, 89%),
+  'text-color': hsl(0, 0%, 46%),
+  'body-color': hsl(0, 0%, 98%)
+);
 
 /* =========================================================================
   #TYPOGRAPHY
 ============================================================================*/
 
 $font-weight: (
-  "poppins-regular": 400,
-  "poppins-medium": 500,
-  "poppins-bold": 700,
-  "dm-regular": 400,
-  "dm-medium": 500,
-  "dm-bold": 700,
+  'poppins-regular': 400,
+  'poppins-medium': 500,
+  'poppins-bold': 700,
+  'dm-regular': 400,
+  'dm-medium': 500,
+  'dm-bold': 700
 );
-
-
 
 /* =========================================================================
   #MEASURES
