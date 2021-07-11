@@ -4,7 +4,8 @@
 
 
 .l-menu {
-  height: 4.5rem;
+  height: $global-header-height;
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
